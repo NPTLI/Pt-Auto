@@ -1,0 +1,7 @@
+loginMode: 0 #0:账户密码 1:cookie
+checking: 0 #0:关闭 1:开启
+cookie: ""
+username: ""
+password: ""
+hosts: "pthome.net"
+notify: 0 #0:关闭 1:开启
