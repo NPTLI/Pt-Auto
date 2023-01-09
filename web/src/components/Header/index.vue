@@ -27,7 +27,7 @@ const toggleTheme = useToggle(isDark);
 </script>
 
 <template>
-  <header class="antialiased bg-white Male text-slate-500 dark:text-slate-400 dark:bg-slate-900">
+  <header class="antialiased bg-white Male text-slate-500 dark:text-slate-400 dark:bg-slate-900 sticky top-0 z-10">
     <div class="sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent">
       <div class="mx-auto max-w-8xl">
         <div class="px-4 py-4 border-b border-slate-900/10 lg:px-8 lg:border-0 dark:border-slate-300/10">
