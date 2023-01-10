@@ -6,13 +6,14 @@ import ArcoVue from '@arco-design/web-vue';
 import '@arco-design/web-vue/dist/arco.css';
 import '/@/styles/index.less';
 import '/@/styles/reset.less';
+import '/@/styles/animation.css';
 import 'uno.css';
 
 // 支持SVG
 import 'virtual:svg-icons-register';
 
 const app = createApp(App);
-app.use(ArcoVue)
+app.use(ArcoVue);
 app.use(router);
 app.use(piniaStore);
 app.mount('#app');
